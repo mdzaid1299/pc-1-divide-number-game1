@@ -6,14 +6,13 @@ public class GameDemo {
         //create local variable
         String temp = "";
         int finalNumber = 0;
-
         try {
             //write logic
             finalNumber = firstNumber / secondNumber;
             temp = Integer.toString(finalNumber);
 
             //Handle specific exception
-        } catch ( ArithmeticException exception) {
+        } catch (ArithmeticException exception) {
             temp = exception.toString();
         }
 
