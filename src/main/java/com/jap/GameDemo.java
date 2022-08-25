@@ -6,6 +6,7 @@ public class GameDemo {
         //create local variable
         String temp = "";
         int finalNumber = 0;
+
         try {
             //write logic
             finalNumber = firstNumber / secondNumber;
